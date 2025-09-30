@@ -687,7 +687,7 @@ tekst
   color: var(--color-accent);
 }
 
-#saturn-moon-content {
+.saturn-moon-content {
   display: flex;
   justify-content: space-evenly;
   gap: 3rem;
@@ -698,7 +698,6 @@ tekst
   border: 2px solid;
   border-color: rgba(165, 156, 137, 0.632);
   border-radius: var(--radius-lg);
-  min-width: 600px;
   max-width: 50%;
   display: flex;
   flex-direction: column;
@@ -714,7 +713,7 @@ ul {
   list-style-type: none;
 }
 
-#moon-text-p {
+.moon-text-p {
   min-width: 300px;
   max-width: 45%;
   padding-right: 7rem;
@@ -737,16 +736,59 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#040b19 #000000) 
+  background-image: linear-gradient(to bottom,  #040b19, #000000 )
 }
-.segway p{
+.segway p {
   max-width: 80%;
   font-size: 1.5rem;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
 }
-.moon-seasons-img{
+.moon-seasons-img {
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.titan-comparison {
+  margin: 4rem 7rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  min-width: 200px;
+  max-width: 30%;
+  border-radius: var(--radius-lg);
+    border: 2px solid;
+  border-color: rgba(165, 156, 137, 0.632);
+}
+.moon-text-p2{
+   min-width: 300px;
+  max-width: 45%;
+  padding-left: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-family-base);
+}
+#facts-li {
+  list-style-type: circle;
+  width: 40%;
+}
+#titan-facts-content{
+  background-image: linear-gradient(to right, #031833, #000000);
+  border: 2px solid;
+  border-color: rgba(165, 156, 137, 0.632);
+  border-radius: var(--radius-lg);
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

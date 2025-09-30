@@ -737,7 +737,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient( #040b19, #000000);
+  background-image: linear-gradient(#040b19 #000000) 
 }
 .segway p{
   max-width: 80%;
@@ -746,7 +746,7 @@ ul {
   text-transform: uppercase;
   text-align: center;
 }
-
 .moon-seasons-img{
-  background-size: cover;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;

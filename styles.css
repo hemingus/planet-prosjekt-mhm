@@ -671,8 +671,8 @@ tekst
 .saturn-moons-frame {
   background-color: #18171B;
   border-radius: 20px;
-  margin: 20px;
-  padding: 50px;
+  margin: 3rem;
+  padding: 1rem;
 
 }
 #saturns-moons-title{
@@ -682,19 +682,21 @@ tekst
 
 #saturn-moon-content {
 display: flex;
-justify-content: space-between;
-gap: 0px;
+justify-content: space-evenly;
+gap: 3rem;
 }
 
 .moon-media-content {
 background-image: linear-gradient(to right, #031833, #000000);
-min-width: 300px;
-max-width: 45%;
-border-radius: 17px;
+border: 2px solid;
+border-color:   rgba(165, 156, 137, 0.632);
+border-radius: var(--radius-lg);
+min-width: 600px;
+max-width: 50%;
 display: flex;
 flex-direction: column;
-align-items: center;
-padding: 50px;
+align-self: center;
+padding: 3rem 3.5rem 4rem 3rem;
 
 }
 #moon-shapes-img {
@@ -704,10 +706,17 @@ border-radius: 3px;
 }
 ul{
   list-style-type: none;
+  
 }
 
-.moon-text-p{
+#moon-text-p{
   min-width: 300px;
   max-width: 45%;
-  margin: 20px;
+  padding-right: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom-p-moon{
+  justify-self: flex-end;
 }

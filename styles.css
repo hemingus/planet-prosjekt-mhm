@@ -666,7 +666,7 @@ a:focus-visible {
 /** SATURN RINGS **/
 
 .rings-section {
-  min-width: 100svw;
+  width: 100svw;
 }
 
 .rings-section h2 {

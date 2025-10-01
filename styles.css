@@ -762,33 +762,51 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #000000;
-  min-width: 200px;
-  max-width: 30%;
+  min-width: 300px;
+  max-width: 50%;
   border-radius: var(--radius-lg);
     border: 2px solid;
   border-color: rgba(165, 156, 137, 0.632);
 }
 .moon-text-p2{
    min-width: 300px;
-  max-width: 45%;
+  max-width: 100%;
   padding-left: 7rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-family: var(--font-family-base);
 }
-#facts-li {
-  list-style-type: circle;
-  width: 40%;
+
+.saturn-moons-frame2{
+   background-color: #18171b;
+  border-radius: 20px;
+  margin: 3rem;
+  padding: 5rem 3rem 3rem 3rem;
+  display: flex; 
+  justify-content: space-between;
+  gap: 2rem;
+}
+.titan-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
 }
 #titan-facts-content{
   background-image: linear-gradient(to right, #031833, #000000);
-  border: 2px solid;
-  border-color: rgba(165, 156, 137, 0.632);
+  border: 2px solid rgba(165, 156, 137, 0.632);
   border-radius: var(--radius-lg);
   display: flex;
-  width: 30%;
+  min-width: 30%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 3rem;
+  justify-content: flex-start;
+  padding: 4rem;
+  flex: 1;
+}
+#facts-li {
+  list-style-type: disc;
+  padding-left: 1.5rem;
 }

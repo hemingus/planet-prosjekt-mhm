@@ -737,6 +737,34 @@ a:focus-visible {
   box-shadow: var(--panel-shadow);
 }
 
+.rings__info p:nth-child(1) span {
+  color: #CF7575;
+}
+
+.rings__info p:nth-child(2) span {
+  color: #D4AD77;
+}
+
+.rings__info p:nth-child(3) span {
+  color: #9DCF71;
+}
+
+.rings__info p:nth-child(4) span {
+  color: #5BB97F;
+}
+
+.rings__info p:nth-child(5) span {
+  color: #56A698;
+}
+
+.rings__info p:nth-child(6) span {
+  color: #5293B3;
+}
+
+.rings__info p:nth-child(7) span {
+  color: #945BB5;
+}
+
 .rings__figure-wrapper {
   flex: 1;
   display: flex;

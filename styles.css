@@ -318,6 +318,7 @@ a:focus-visible {
 /** About & Gallery shared structure **/
 .about,
 .gallery,
+.rings,
 .saturn-moons {
   padding: 5rem 0;
 }
@@ -332,6 +333,7 @@ a:focus-visible {
 
 .about__header,
 .gallery__header,
+.rings__header,
 .saturn-moons__header {
   max-width: 45rem;
   margin: 0 auto;
@@ -340,6 +342,7 @@ a:focus-visible {
 
 .about__title,
 .gallery__title,
+.rings__title,
 .saturn-moons__title {
   margin-bottom: 1.5rem;
   font: 600 clamp(2rem, 5vw, 3rem) var(--font-family-base);
@@ -349,19 +352,22 @@ a:focus-visible {
 
 .about__title span,
 .gallery__title span,
+.rings__title span,
 .saturn-moons__title span {
   color: var(--color-accent);
 }
 
 .about__subtitle,
-.gallery__subtitle {
+.gallery__subtitle,
+.rings__subtitle {
   color: var(--color-text-muted);
   font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.8;
 }
 
 .about__media img,
-.gallery__item img {
+.gallery__item img,
+.rings__media img {
   display: block;
   width: 100%;
   height: 100%;
@@ -510,6 +516,9 @@ a:focus-visible {
     flex: 1 1 100%;
     max-width: 100%;
   }
+  .rings__figure-section {
+    flex-direction: column;
+  }
 
   .about__stats {
     gap: 1rem;
@@ -648,6 +657,140 @@ a:focus-visible {
   .gallery__grid {
     grid-template-rows: repeat(5, 160px);
   }
+}
+
+/** SATURN RINGS **/
+
+.rings-section {
+  width: 100svw;
+}
+
+.rings-section h2 {
+  flex: 1;
+  text-align: center;
+}
+
+.rings-section h3 {
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  color: var(--color-accent);
+  font-weight: 400;
+}
+
+.rings__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.rings__parallax {
+  width: 100%;
+  height: 60svh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rings__parallax-1 {
+  background-image: url("./images/saturn-rings_1.jpg");
+}
+
+.rings__parallax-2 {
+  background-image: url("./images/saturn-rings_2.jpg");
+}
+
+.rings__quote-box {
+  min-height: 50svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  width: 100%;
+  box-shadow: 0 0 5svh 10svh black;
+  z-index: 1;
+}
+
+.rings__quote-box p {
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-style: italic;
+  font-weight: 200;
+  color: var(--color-text-muted);
+  text-shadow: 2px 2px 5px white;
+  justify-self: center;
+  padding: 4rem;
+}
+
+.rings__info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  border: var(--panel-border);
+  border-radius: var(--radius-sm);
+  background: var(--panel-bg) padding-box;
+  box-shadow: var(--panel-shadow);
+}
+
+.rings__info p:nth-child(1) span {
+  color: #CF7575;
+}
+
+.rings__info p:nth-child(2) span {
+  color: #D4AD77;
+}
+
+.rings__info p:nth-child(3) span {
+  color: #9DCF71;
+}
+
+.rings__info p:nth-child(4) span {
+  color: #5BB97F;
+}
+
+.rings__info p:nth-child(5) span {
+  color: #56A698;
+}
+
+.rings__info p:nth-child(6) span {
+  color: #5293B3;
+}
+
+.rings__info p:nth-child(7) span {
+  color: #945BB5;
+}
+
+.rings__figure-wrapper {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.rings__figure-section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.rings__figure-section {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+.rings__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: linear-gradient(to right, #031833, black);
+  padding: clamp(1rem, 2vw, 2rem);
+  border-radius: 1rem;
+  outline: 2px solid rgba(245, 245, 245, 0.5);
 }
 
 .saturn-moon__content {

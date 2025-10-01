@@ -689,6 +689,22 @@ a:focus-visible {
   padding: 0;
 }
 
+.rings__parallax {
+  width: 100%;
+  height: 60svh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rings__parallax-1 {
+  background-image: url("./images/saturn-rings_1.jpg");
+}
+
+.rings__parallax-2 {
+  background-image: url("./images/saturn-rings_2.jpg");
+}
+
 .rings__quote-box {
   min-height: 50svh;
   display: flex;

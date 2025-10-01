@@ -95,10 +95,6 @@
               <img
                 src="./images/about-saturn.png"
                 alt="Saturn and its rings in space"
-                width="800"
-                height="600"
-                loading="lazy"
-                decoding="async"
               />
               <figcaption class="visually-hidden" id="about-figure-caption">
                 An elegant portrait of Saturn and its breathtaking rings — a
@@ -189,10 +185,6 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Saturn's majestic rings in detail"
-                width="600"
-                height="600"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
 
@@ -200,10 +192,6 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Saturn from a distance showing its full glory"
-                width="300"
-                height="300"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
 
@@ -211,10 +199,6 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Close-up view of Saturn's intricate ring particles"
-                width="300"
-                height="300"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
 
@@ -222,10 +206,6 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Saturn's atmospheric bands and storm patterns"
-                width="400"
-                height="300"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
 
@@ -233,10 +213,6 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Saturn and its moons in the cosmic void"
-                width="600"
-                height="600"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
 
@@ -244,102 +220,119 @@
               <img
                 src="./images/hero-bg.png"
                 alt="Saturn's hexagonal storm at the north pole"
-                width="400"
-                height="300"
-                loading="lazy"
-                decoding="async"
               />
             </figure>
           </div>
         </div>
       </section>
-      <section class="saturn-moons-frame">
-        <h3 class="saturns-moons-title">SATURNS <span>MOONS</span></h3>
-        <div class="saturn-moon-content">
-          <article class="moon-media-content">
-            <img
-              id="moon-shapes-img"
-              src="./images/saturnmoons.jpg"
-              alt="The different shapes of saturns moons"
-              width="500"
-              height="462"
-            />
-            <!-- //width, height, loading lazy, decoding async? -->
-            <br />
-            <ul>
-              <li>Words used to describe the different shapes are:</li>
-              <li>Spherical(the larger moons)</li>
-              <li>Sweet potato (Prometheus)</li>
-              <li>Regular potato(Pandora)</li>
-              <li>Meatball (Janus)</li>
-              <li>Sponge (Hyperion)</li>
-            </ul>
-          </article>
-          <div class="moon-text-p">
-            <p>
-              Saturn has 274 confirmed moons in its orbit. They range in size
-              from smaller than a football stadium, to larger than the planet
-              mercury. Additional to size, they also vary in color, texture and
-              composition.
-            </p>
-            <br />
-            <p>
-              Saturn’s moons both contribute to and collect material from
-              Saturn’s rings and magnetosphere. One object observed in the rings
-              may be a moon forming or disintegrating, or it might not be a moon
-              at all.
-            </p>
-            <br />
-            <p id="bottom-p-moon">Saturns biggest moon is called Titan</p>
+
+      <section
+        class="saturn-moons"
+        id="saturn-moons"
+        aria-labelledby="saturn-moons-title"
+      >
+        <div class="site-container saturn-moons__container">
+          <header class="saturn-moons__header">
+            <h2 class="saturn-moons__title" id="saturn-moons-title">
+              Saturns <span>moons</span>
+            </h2>
+          </header>
+
+          <div class="saturn-moon__content">
+            <article class="moon-media-content">
+              <img
+                id="moon-shapes-img"
+                src="./images/saturnmoons.jpg"
+                alt="The different shapes of saturns moons"
+                width="500"
+                height="462"
+              />
+              <br />
+              <ul>
+                <li>Words used to describe the different shapes are:</li>
+                <li>Spherical(the larger moons)</li>
+                <li>Sweet potato (Prometheus)</li>
+                <li>Regular potato(Pandora)</li>
+                <li>Meatball (Janus)</li>
+                <li>Sponge (Hyperion)</li>
+              </ul>
+            </article>
+            <div class="moon-text-p">
+              <p>
+                Saturn has 274 confirmed moons in its orbit. They range in size
+                from smaller than a football stadium, to larger than the planet
+                mercury. Additional to size, they also vary in color, texture
+                and composition.
+              </p>
+              <br />
+              <p>
+                Saturn’s moons both contribute to and collect material from
+                Saturn’s rings and magnetosphere. One object observed in the
+                rings may be a moon forming or disintegrating, or it might not
+                be a moon at all.
+              </p>
+              <br />
+              <p id="bottom-p-moon">Saturns biggest moon is called Titan</p>
+            </div>
           </div>
+
+          <div class="segway">
+            <p>
+              Titan is the only other place in the solar system known to have an
+              Earth-like cycle of liquids flowing across its surface as the
+              planet cycles through its seasons.
+            </p>
+          </div>
+
+          <section class="saturn-moons-frame2">
+            <div class="titan-left">
+              <div class="moon-text-p2">
+                <p>
+                  Titan has has clouds, rain, rivers, lakes and seas of liquid
+                  hydrocarbons like methane and ethane.
+                </p>
+                <br />
+                <p>
+                  Earth has liquid water oceans because it orbits within the
+                  solar system’s habitable zone. The Saturn system is far
+                  outside of the habitable zone, and Titan’s surface temperature
+                  is so cold that the moon’s surface is largely water ice
+                  instead of rock. But the temperature is just right for liquid
+                  methane and ethane.
+                </p>
+              </div>
+              <article class="titan-comparison">
+                <p>Titan compared to the earth, and our moon</p>
+                <img
+                  src="./images/titan-comparison.png"
+                  alt="Titan compared to out moon and the earth"
+                  width="232"
+                  height="156"
+                />
+              </article>
+            </div>
+            <article id="titan-facts-content">
+              <img
+                src="./images/titan.png"
+                alt="a green titan"
+                width="140"
+                height="140"
+              />
+              <ul id="facts-li">
+                <li>A day on Titan lasts around 16 days on earth.</li>
+                <li>Titan is the second-largest moon in the solar system.</li>
+                <li>
+                  Titan is made of roughly equal parts of ice and rocky material
+                </li>
+                <li>
+                  Scientist believe that Titan hides a liquid water ocean
+                  beneath its icy crust, which could potentially harbor life
+                </li>
+              </ul>
+            </article>
+          </section>
         </div>
       </section>
-      <section class="segway">
-        <p>
-          Titan is the only other place in the solar system known to have an
-          Earth-like cycle of liquids flowing across its surface as the planet
-          cycles through its seasons.
-        </p>
-      </section>
-      <section class="moon-seasons-img">
-        <img src="./images/titan-seasons.png" alt="Titans different seasons"/>
-      </section>
-      <section class="saturn-moons-frame2">
-        <div class="titan-left">
-        <div class ="moon-text-p2">
-        <p>
-          Titan has has clouds, rain, rivers, lakes and seas of liquid
-          hydrocarbons like methane and ethane.
-        </p>
-        <br />
-        <p>
-          Earth has liquid water oceans because it orbits within the solar
-          system’s habitable zone. The Saturn system is far outside of the
-          habitable zone, and Titan’s surface temperature is so cold that the
-          moon’s surface is largely water ice instead of rock. But the
-          temperature is just right for liquid methane and ethane.
-        </p>
-        </div>
-        <article class="titan-comparison">
-          <p>Titan compared to the earth, and our moon</p>
-          <img
-            src="./images/titan-comparison.png"
-            alt="Titan compared to out moon and the earth"
-            width="232"
-            height="156"
-          />
-        </article>
-        </div>
-        <article id="titan-facts-content">
-          <img src="./images/titan.png" alt="a green titan" width="140" height="140">
-          <ul id ="facts-li">
-            <li>A day on Titan lasts around 16 days on earth.</li>
-              <li>Titan is the second-largest moon in the solar system.</li>
-                <li>Titan is made of roughly equal parts of ice and rocky material</li>
-                  <li>Scientist believe that Titan hides a liquid water ocean beneath its icy crust, which could potentially harbor life</li>
-          </ul>
-        </article>
-        </section>
     </main>
   </body>
 </html>
